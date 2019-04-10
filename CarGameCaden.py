@@ -10,7 +10,7 @@ pygame.display.set_caption("CarGameCaden")
 clock = pygame.time.Clock()
 
 carimg = pygame.image.load('Car1.jpg')
-IMAGE_SMALL = pygame.transform.scale(carimg, (120, 200))
+IMAGE_SMALL = pygame.transform.scale(carimg, (120, 200))   # the display can only recognize the RGB code of colors
 
 def car(x,y):
     gamedisplay.blit(IMAGE_SMALL,(x,y))
