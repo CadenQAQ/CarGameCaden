@@ -69,7 +69,7 @@ def game_loop():
         gamedisplay.fill(quitcolor)
         background()
         car(x,y)
-        if x> 680-car_width or x<110:
+        if x> 750-car_width or x<110:
             crash()
 
         pygame.display.update()
